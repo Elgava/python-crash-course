@@ -8,17 +8,17 @@ person = {
 for key, value in person.items():
 	print(f'\n{key}: {value}')
 
-# for things in person.keys():
-# 	print(f'{things.title()}\n')
+for things in person.keys():
+	print(f'{things.title()}\n')
 
-# for names in person.values():
-# 	print(names.title())
+for names in person.values():
+	print(names.title())
 
-# for names in sorted(person.keys()):
-# 	print(f'\n{names.title()} thank you for entering your information')
+for names in sorted(person.keys()):
+	print(f'\n{names.title()} thank you for entering your information')
 
-# for user in set(person.values()):
-# 	print(f'\n{user.title()}')
+for user in set(person.values()):
+	print(f'\n{user.title()}')
 
 #6-2 favourite numbers
 fave_numbers ={
@@ -33,3 +33,12 @@ for name, num in fave_numbers.items():
 	print(f"\n{name.title()}'s favorite number are:")
 	for number in num:
 		print(f"\t{number.title()}")
+
+#6-3 glossary
+glossary = {
+	'dictionary' : 'used to store a key and a value',
+	'if statement' : 'used for diferent outcomes',
+	'lists':'used to store more than one value',
+}
+for key, value in glossary.items():
+	print(f'\n{key}: {value}')
